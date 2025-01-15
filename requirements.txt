@@ -1,0 +1,3 @@
+Flask==2.2.3
+cryptosteganography==0.5.1
+secrets  # Built-in Python module, no need to install
