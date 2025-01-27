@@ -45,18 +45,38 @@ Welcome to **SneakPixel**, where **digital espionage** meets **steganography**. 
 
 ## **🖥️ How It Works**
 
-1. **Encoding**: Upload an image and a secret message. The system hides the message inside the image using cryptography. You can use a session-generated key or your own custom key.
-   
-2. **Decoding**: Upload an image with a hidden message. If you’ve got the key, **SneakPixel** will reveal the secret.
+1. **Encoding**: Upload an image and a secret message. The system hides the message inside the image using cryptography. You can either use a session-generated key or provide your own custom key.
 
-<img width="926" alt="Screenshot 2025-01-26 at 22 57 37" src="https://github.com/user-attachments/assets/ef4912e1-b316-45b4-8668-bb11387fc3f3" />
-<img width="772" alt="Screenshot 2025-01-26 at 23 00 12" src="https://github.com/user-attachments/assets/6f3bb72b-2c4e-4ccc-b8bd-a050a9caef38" />
-## Image After message is hidden in the pixels!
-<img width="773" alt="Screenshot 2025-01-26 at 22 59 45" src="https://github.com/user-attachments/assets/cd3f9962-69f6-4aa4-b56c-04ffe72d6d91" />
-
-
+2. **Decoding**: Upload an image containing a hidden message. With the correct key, **SneakPixel** will extract and reveal the secret message.
 
 ---
+
+## **User Interface (UI)**
+
+### Main Interface:
+Below is a preview of the **SneakPixel** user interface:
+
+![Screenshot of SneakPixel UI](https://github.com/user-attachments/assets/ef4912e1-b316-45b4-8668-bb11387fc3f3)
+
+---
+
+## **Image Examples**
+
+### Before the Message is Hidden:
+Here is an example of an image before a message is embedded:
+
+![Image before message embedding](https://github.com/user-attachments/assets/6f3bb72b-2c4e-4ccc-b8bd-a050a9caef38)
+
+### After the Message is Hidden:
+Here is the same image after a secret message has been hidden within its pixels:
+
+![Image after message embedding](https://github.com/user-attachments/assets/cd3f9962-69f6-4aa4-b56c-04ffe72d6d91)
+
+---
+
+**Note**: The differences between the original and modified images are imperceptible to the human eye, ensuring the hidden message remains discreet while maintaining the visual integrity of the image.
+
+
 
 ## **⚡️ Security**
 
