@@ -1,6 +1,6 @@
 
 
-# **SneakPixel** - *Hack the Pixels, Hide Your Secrets*
+# **SneakyPixel** - *Hack the Pixels, Hide Your Secrets*
 
 **“Information wants to be free. And so do your secrets.”**
 
