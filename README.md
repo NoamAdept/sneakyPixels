@@ -49,6 +49,12 @@ Welcome to **SneakPixel**, where **digital espionage** meets **steganography**. 
    
 2. **Decoding**: Upload an image with a hidden message. If you’ve got the key, **SneakPixel** will reveal the secret.
 
+<img width="926" alt="Screenshot 2025-01-26 at 22 57 37" src="https://github.com/user-attachments/assets/ef4912e1-b316-45b4-8668-bb11387fc3f3" />
+<img width="772" alt="Screenshot 2025-01-26 at 23 00 12" src="https://github.com/user-attachments/assets/6f3bb72b-2c4e-4ccc-b8bd-a050a9caef38" />
+<img width="773" alt="Screenshot 2025-01-26 at 22 59 45" src="https://github.com/user-attachments/assets/cd3f9962-69f6-4aa4-b56c-04ffe72d6d91" />
+
+
+
 ---
 
 ## **⚡️ Security**
