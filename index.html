@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoSteg Web App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        form {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="file"],
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Send Secret Messages via Images</h1>
+
+    <p class="info">
+        Enter a shared secret key with your partner for encoding/decoding. If you don't enter a key, a session key will be generated automatically.
+    </p>
+
+    <!-- Form for encoding a message -->
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="user_key">Secret Key (Optional):</label>
+        <input type="text" id="user_key" name="user_key" placeholder="Enter a shared secret key">
+
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" placeholder="Enter your secret message" required>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+
+        <button type="submit" name="encode">Encode and Download Image</button>
+    </form>
+
+    <!-- Form for decoding a message -->
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="user_key">Secret Key (Optional):</label>
+        <input type="text" id="user_key" name="user_key" placeholder="Enter a shared secret key">
+
+        <label for="encoded_image">Encoded Image:</label>
+        <input type="file" id="encoded_image" name="encoded_image" accept="image/*" required>
+
+        <button type="submit" name="decode">Decode Message</button>
+    </form>
+</body>
+</html>
